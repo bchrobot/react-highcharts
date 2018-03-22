@@ -3,6 +3,7 @@
   "version": "16.0.1",
   "description": "React wrapper for highcharts",
   "main": "dist/ReactHighcharts.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "test": "webpack && mocha test/unit",
     "e2e": "nightwatch test/e2e/e2e-launcher.js -e local --config nightwatch.js ",
